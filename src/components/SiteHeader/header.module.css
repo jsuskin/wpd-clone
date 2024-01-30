@@ -1,0 +1,174 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.branding-element {
+  margin: 10px 5px;
+}
+
+.nav-links,
+.site-links,
+.notifications,
+.messages {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.site-links * {
+  margin: 0 10px;
+}
+
+.nav-links {
+  color: #f1f1f1;
+}
+
+.notifications,
+.messages {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 700;
+}
+
+.notifications {
+  color: #ff4242;
+}
+
+.notifications-count,
+.messages-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.messages * {
+  margin: 0 1px;
+}
+
+.notifications-bell {
+  margin: 4px;
+}
+
+.notifications-count {
+  padding: 2.5px 0;
+  background-color: #ff4242;
+}
+
+.notifications-count p {
+  color: white;
+}
+
+.user-menu {
+  display: flex;
+  margin-right: 25px;
+}
+
+.user-pfp-container,
+.coins-icon-container,
+.bux-icon-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.user-pfp-container {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.user-pfp-wrapper,
+.coins-icon-wrapper,
+.bux-icon-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.user-pfp {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username-container {
+  display: flex;
+}
+
+.username-container,
+.currency-container {
+  margin: 2.5px;
+}
+
+.username-wrapper {
+  margin: 0 3px;
+  padding: 2px 4px;
+  background-color: #c042ff;
+  border-radius: 5px;
+}
+
+.username-text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.currency-container {
+  display: flex;
+}
+
+.coins-container,
+.bux-container {
+  display: flex;
+  margin: 0 2px;
+}
+
+.coins-icon-container,
+.bux-icon-container {
+  margin: 3px;
+}
+
+.coins-icon-container {
+  width: 12px;
+  height: 12px;
+}
+
+.bux-icon-container {
+  min-width: 25px;
+}
+
+.coins-count,
+.bux-count {
+  font-size: .777em;
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px dotted red; */
+}
+
+.search-input {
+  padding: 6.66px;
+  min-width: 400px;
+  border-radius: 5px;
+  background-color: #363636;
+  border: 2px solid #f1f1f1;
+  font-size: .888rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 2.32px;
+}

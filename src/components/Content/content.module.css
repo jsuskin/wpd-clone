@@ -1,0 +1,18 @@
+.create-post-button {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #c042ff;
+  background: #363636;
+  color: #dddddd;
+  width: calc(100% - 80px);
+  padding: 10px 0;
+  margin: 20px 40px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-post-button * {
+  margin: 0 5px;
+  font-size: 1.125em;
+  font-weight: 600;
+}

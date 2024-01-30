@@ -1,0 +1,27 @@
+.page-selector {
+  width: 100%;
+}
+
+.page-selector ul {
+  margin: 20px;
+}
+
+.page-selector ul,
+.page-number {
+  display: flex;
+}
+
+.page-number {
+  border: 1px solid #dddddd20;
+}
+
+.page-number p {
+  text-align: center;
+  list-style: none;
+  min-width: 50px;
+  padding: 5px 10px;
+  font-size: 1.7em;
+  font-weight: 900;
+  color: #c042ff;
+  cursor: pointer;
+}

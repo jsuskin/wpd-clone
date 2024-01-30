@@ -1,0 +1,80 @@
+.post,
+.post-info,
+.flairs,
+.flairs * {
+  display: flex;
+}
+
+.post {
+  border: 1px solid #dddddd20;
+  margin: 0 40px;
+  align-items: stretch;
+  font-size: .75em;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.post,
+.hole {
+  border-radius: 3px;
+}
+
+.votes, .title {
+  color: #dddddd;
+}
+
+.votes {
+  text-align: center;
+}
+
+.votes,
+.post-info {
+  margin: 20px 10px;
+}
+
+.votes * {
+  padding: 5px;
+}
+
+.thumbnail {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post-info {
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.flairs * {
+  align-items: center;
+  margin: 0 2px;
+}
+
+.hole {
+  background-color: #c042ff;
+  color: #f1f1f1;
+  padding: 2px 4px;
+  margin: 0 2px 0 0;
+  font-weight: 700;
+}
+
+.pinned,
+.username {
+  color: #c042ff;
+}
+
+.username,
+.title {
+  font-weight: 600;
+}
+
+.username {
+  font-size: 1.1em;
+}
+
+.title {
+  font-size: 1.4em;
+}

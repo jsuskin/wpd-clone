@@ -1,0 +1,71 @@
+.sidebar-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.hole-header {
+  width: 100%;
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hole-header * {
+  position: absolute;
+}
+
+.horizontal-rule {
+  border-top: 1px solid #c042ff;
+  width: 100%;
+}
+
+.hole-header-text {
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: #363636;
+  padding: 0 5px;
+}
+
+.sidebar p {
+  margin: 10px 0;
+  color: #c042ff;
+}
+
+.sidebar-chevron-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  color: #dddddd;
+}
+
+.rmv-list-styling {
+  list-style: none;
+}
+
+.grid-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.grid-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any additional styling for list items if needed */
+  /* padding: 10px; */
+  border: 1px solid #c042ff;
+}
+
+.grid-list li p {
+  color: #f1f1f1;
+}
